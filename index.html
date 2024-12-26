@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avinash Kumar - Portfolio</title>
+    <style>
+        /* Basic Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+
+/* Navbar */
+nav {
+    background: linear-gradient(45deg, #ff7b00, #f0049d);
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 32px;
+    margin-left: 20px;
+    float: left;
+    padding-bottom: 200px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background: #fff;
+    color: #f0049d;
+    transition: 0.3s ease-in-out;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(45deg, #f0049d, #ff7b00);
+    padding: 60px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin-right: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero-image:hover {
+    transform: scale(1.1);
+}
+
+.hero-text h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero-text p {
+    font-size: 20px;
+    max-width: 500px;
+    line-height: 1.6;
+    margin: 0 auto;
+}
+
+/* About Section */
+.about {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #f0049d;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Skills Section */
+.skills {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #ff7b00;
+}
+
+.skill-set {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill {
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #f0049d;
+}
+
+.skill p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Projects Section */
+.projects {
+    padding: 60px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projects h2 {
+    font-size: 36
+}
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <h1 class="logo">Avinash Kumar</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="public/image/myphoto.jpg" alt="Avinash Kumar" class="hero-image">
+                <div class="hero-text">
+                    <h2 id="typing-effect" class="typing-effect">Hello, I'm Avinash Kumar</h2>
+                    <p id="typing-intro" class="typing-effect">I'm a passionate Web Designer and Competitive Programmer currently learning at PWIOI. I specialize in creating responsive websites and solving complex algorithms. Let's connect!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="typing-effect">About Me</h2>
+            <p class="typing-effect">I'm currently enhancing my skills in Web Design and Competitive Programming at PWIOI. I have a deep interest in solving algorithmic problems and creating visually stunning websites. With experience in HTML, CSS, JavaScript, and popular frameworks, I'm always eager to explore new technologies and improve my skill set.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="typing-effect">Skills & Expertise</h2>
+            <div class="skill-set">
+                <div class="skill">
+                    <h3 class="typing-effect">Web Design</h3>
+                    <p class="typing-effect">HTML, CSS, JavaScript, Responsive Web Design, UI/UX Design, Bootstrap, Tailwind CSS</p>
+                </div>
+                <div class="skill">
+                    <h3 class="typing-effect">Competitive Programming</h3>
+                    <p class="typing-effect">C, Algorithms , Problem Solving, hackerank, Codeforces</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="typing-effect">Projects</h2>
+            <div class="project">
+                <h3 class="typing-effect">pwioi youtube website </h3>
+                <p class="typing-effect">landing page </p>
+                <a href="https://github.com/Avinashkumar945/learnweb" target="_blank" class="btn typing-effect">View on GitHub</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="typing-effect">Contact Me</h2>
+            <p class="typing-effect">Email: avinash732004kumar@gmail.com</p>
+            <p class="typing-effect">GitHub: <a href="https://github.com/Avinashkumar945" target="_blank">github.com/Avinashkumar945</a></p>
+            <p class="typing-effect">LinkedIn: <a href="https://www.linkedin.com/in/avinash-kumar-ba5594312/" target="_blank">linkedin.com/in/avinash-kumar</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="typing-effect">&copy; 2024 Avinash Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
